@@ -120,4 +120,44 @@ a {
   font-size: 0.9rem;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .nav-left,
+  .nav-right {
+    justify-content: center;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-center {
+    margin: 0.5rem 0;
+  }
+
+  .hero-text {
+    padding: 1.5rem 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .menu-list li {
+    font-size: 1rem;
+  }
+}
 
